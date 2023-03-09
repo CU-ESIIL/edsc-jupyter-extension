@@ -44,7 +44,7 @@ class IFrameWidget extends Widget {
 
         } else {
           console.log('setting proxy');
-          path = "edsc/proxy/" + path;
+          path = "edsc/proxy?url=" + path;
           iframe.src = path;
         }
       }
